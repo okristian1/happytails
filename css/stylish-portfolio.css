@@ -263,17 +263,31 @@ hr.medium {
 
 .sale-box {
     background-color:#468fc4;
-    padding: 60px;
+    padding: 60px 60px 0 60px;
     border: 10px solid #337ab7;
     border-radius: 15px;
     min-height: 340px;
 }
 
-.sale-box a {
+.pricing-footer {
     position: absolute;
-    bottom: 0;
+    z-index: 1;
+    top: 0;
     left: 0;
+    height: 80px;
+    width: 100%;
 }
+
+.sale-box-footer {
+    position: relative;
+    height: auto;
+    padding: 1.8em 0;
+    text-align: center;
+}
+
+
+
+
 
 .callout {
     display: table;
