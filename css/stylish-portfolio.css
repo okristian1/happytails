@@ -21,6 +21,25 @@ li {
     font-size: 1.1em;
 }
 
+.flex-container {
+    display: flex;
+    height: 100vh;
+    color: white;
+    background-color:#337ab7;
+    color: white;
+
+}
+
+
+.event {
+    background-color:#468fc4;
+    padding: 20px 0 10px 0;
+    box-shadow: rgba(0,0,0,0.117647) 4px 1px 6px, rgba(0,0,0,0.117647) 0px 1px 4px;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+
 .intro {
     margin-top: 100px;
     margin-bottom: 100px;
@@ -40,7 +59,6 @@ li {
     list-style-type: none;
 }
 .text-vertical-center {
-    display: table-cell;
     text-align: center;
     vertical-align: middle;
     margin-top: 6.5%;
@@ -236,15 +254,9 @@ hr.medium {
 /* Header */
 
 .header {
-    display: table;
-    position: relative;
-    width: 100%;
-    height: 100%;
+    width: 100vh;
+    height: 100vh;
     background-color:#337ab7;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
     color: white;
 }
 
@@ -373,13 +385,6 @@ footer {
     font-size: 18px;
 }
 
-.event {
-    background-color:#468fc4;
-    padding-top: 10px;
-    box-shadow: rgba(0,0,0,0.117647) 4px 1px 6px, rgba(0,0,0,0.117647) 0px 1px 4px;
-    font-size: 20px;
-    line-height: 20px;
-}
 
 
 
