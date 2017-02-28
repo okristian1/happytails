@@ -23,6 +23,7 @@ li {
 
 .flex-container {
     display: flex;
+    padding-top:30px;
     height: 100vh;
     color: white;
     background-color:#337ab7;
