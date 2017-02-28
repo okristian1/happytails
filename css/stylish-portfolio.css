@@ -31,7 +31,7 @@ li {
     padding-bottom: 100px;
 }
 
-img {
+.portfolio-item img {
     box-shadow: rgba(0,0,0,0.117647) 4px 1px 6px, rgba(0,0,0,0.117647) 0px 1px 4px;
     border-radius: 5px;
 }
@@ -371,4 +371,14 @@ footer {
 .lead {
     font-weight: 400;
     font-size: 18px;
+}
+
+.event {
+    background-color:#468fc4;
+    padding: 20px 20px 20px 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    box-shadow: rgba(0,0,0,0.117647) 4px 1px 6px, rgba(0,0,0,0.117647) 0px 1px 4px;
+    font-size: 20px;
+    line-height: 20px;
 }
