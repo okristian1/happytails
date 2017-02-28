@@ -21,14 +21,20 @@ li {
     font-size: 1.1em;
 }
 
+
 .flex-container {
     display: flex;
-    padding-top:30px;
-    height: 100%;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
     color: white;
     background-color:#337ab7;
     color: white;
+}
 
+
+.aligner-item {
+  max-width: 50%;
 }
 
 
@@ -36,7 +42,7 @@ li {
     background-color:#468fc4;
     padding: 20px 0 10px 0;
     box-shadow: rgba(0,0,0,0.117647) 4px 1px 6px, rgba(0,0,0,0.117647) 0px 1px 4px;
-    font-size: 20px;
+    font-size: 16px;
     line-height: 20px;
 }
 
