@@ -374,8 +374,9 @@ footer {
 }
 
 .event {
-    margin-bottom: 20px;
-    margin-top: 20px;
+    background-color:#468fc4;
+    padding-top: 10px;
+    box-shadow: rgba(0,0,0,0.117647) 4px 1px 6px, rgba(0,0,0,0.117647) 0px 1px 4px;
     font-size: 20px;
     line-height: 20px;
 }
