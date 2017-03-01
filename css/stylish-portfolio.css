@@ -71,6 +71,12 @@ header {
 
 /* Custom Button Styles */
 
+.btn-order {
+    border-radius: 5px;
+    color: #fff;
+    background-color: #00B0FF;
+}
+
 
 .btn-dark {
     border-radius: 5px;
@@ -86,9 +92,8 @@ header {
 }
 
 .btn-light {
-    border-radius: 0;
     color: white;
-    background-color: #337ab7;
+    background-color: transparent;
 }
 
 .btn-light:hover,
