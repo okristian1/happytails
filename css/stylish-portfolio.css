@@ -37,8 +37,6 @@ header {
 
 
 .event {
-    background-color:#468fc4;
-    box-shadow: rgba(0,0,0,0.117647) 4px 1px 6px, rgba(0,0,0,0.117647) 0px 1px 4px;
     font-size: 20px;
     min-height: 10%;
     margin-top: 2%;
@@ -160,7 +158,7 @@ header {
 /* Custom Horizontal Rule */
 
 hr.small {
-    max-width: 100px;
+    max-width: 200px;
 }
 
 hr.medium {
