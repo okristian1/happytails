@@ -16,7 +16,7 @@ body {
 body {
     font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
- 
+
 li {
     font-size: 1.1em;
 }
@@ -34,13 +34,29 @@ header {
     -o-background-size: cover;
     color: white;
 }
+.logo {
+  font-size: 15rem;
+  font-weight: 800;
+  font-style: italic;
+  font-family: Courgette;
+}
 
 @media screen and (max-width: 480px) {
     header {
         padding-top: 15%;
     }
+  .logo {
+    font-size: 6rem;
+  }
 }
 
+
+.happy {
+    color: #01c4d8;
+}
+.tails {
+  color: #093e6b;
+}
 
 
 .event {
@@ -266,7 +282,7 @@ hr.medium {
 .services {
     padding: 50px 0;
  }
- 
+
 .service-item {
     margin-bottom: 30px;
 }
@@ -360,4 +376,3 @@ footer {
     color: #555555;
     padding:0 20px 0 20px;
 }
-
