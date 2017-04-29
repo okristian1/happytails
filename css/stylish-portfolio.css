@@ -41,6 +41,10 @@ header {
   font-family: Courgette;
 }
 
+.btn-success {
+  width: 400px;
+}
+
 @media screen and (max-width: 480px) {
     header {
         padding-top: 15%;
@@ -313,6 +317,10 @@ hr.medium {
 }
 
 /* Portfolio */
+
+.modal-content {
+  height: 100vh;
+}
 
 .portfolio {
     padding: 50px 0;
